@@ -1,5 +1,5 @@
  # Set the base image for subsequent instructions
- FROM php:7.4-fpm as php
+ FROM php:8.1-fpm as php
  # Install PHP extensions and dependencies
  RUN apt-get update \
      && apt-get install -y \
